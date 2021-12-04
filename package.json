@@ -1,0 +1,27 @@
+{
+  "name": "data-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/main.ts",
+  "scripts": {
+    "start": "ts-node . prod",
+    "test": "ts-node . test"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/archiver": "^5.1.1",
+    "@types/node": "^16.9.2",
+    "@types/skia-canvas": "^0.9.2",
+    "ts-node": "^10.2.1",
+    "typescript": "^4.4.3"
+  },
+  "dependencies": {
+    "archiver": "^5.3.0",
+    "axios": "^0.21.4",
+    "axios-request-throttle": "^1.0.0",
+    "canvas-object-fit": "^0.8.1",
+    "prettier": "^2.4.1",
+    "skia-canvas": "^0.9.25"
+  }
+}
